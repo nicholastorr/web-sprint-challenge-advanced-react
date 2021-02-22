@@ -45,12 +45,12 @@ test("form shows success message on submit with form details", () => {
   const button = screen.getByRole("button", { name: /checkout/i };
 
       //Act
-      userEvent.type(firstName, "Tony");
-      userEvent.type(lastName, "Miller");
-      userEvent.type(address, "3456 Aloha Way");
-      userEvent.type(city, "Lahaina");
-      userEvent.type(state, "HI");
-      userEvent.type(zip, "96814");
+      userEvent.type(firstName, "nicholas");
+      userEvent.type(lastName, "torres");
+      userEvent.type(address, "704 sweetbriar dr");
+      userEvent.type(city, "oldsmar");
+      userEvent.type(state, "FL");
+      userEvent.type(zip, "34677");
       userEvent.click(button);
 
 
